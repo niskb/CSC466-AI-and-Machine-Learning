@@ -1,7 +1,4 @@
 import math
-import csv
-with open('iris-dataset.csv', mode='r') as file:
-    csv_reader = csv.reader(file)
 from collections import Counter
 
 class KNN:
